@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <title>Calculadora da area do triangulo</title>
+  </head>
+  <body>
+    <div class="gradient-background">
+      <div class="container">
+        <div class="outer-container">
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/allan-matriz-taquara-undefined-67a9282aa/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/Allanluis" target="_blank"
+              ><i class="fas fa-globe"></i
+            ></a>
+            <a
+              href="https://github.com/Allanluis"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href=https://www.instagram.com/021.allan.moquedace/" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        <h2 align="center">area do triangulo</h2>
+
+        <div class="form-group">
+          <label for="base">base</label><br />
+          <input
+            type="number"
+            id="base"
+            min="1"
+            placeholder="Informe a base do triangulo"
+          />
+          <label for="height">altura</label><br />
+          <input
+            type="number"
+            id="height"
+            min="1"
+            placeholder="Informe a altura do triangulo"
+          />
+        </div>
+
+        <button onclick="calcular()">Calcular</button>
+          <p>Area do triangulo:
+      
+            <div id="resultado-container" style="display: none">
+              <p id="display"></p>
+            </div>
+
+        <footer>
+          Desenvolvido por
+          <a
+            href="https://github.com/Allanluis"
+            target="_blank"
+            >Allan luis</a
+          >
+          , no Curso de Programador FrontEnd do Senai (2025)<br />
+          Todos os direitos reservados
+        </footer>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
